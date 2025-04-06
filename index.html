@@ -111,6 +111,63 @@
         padding: 0px 190px;
       }
       
+      /**content**/
+      .video-section {
+  background-color: #6A7E92; /* or whichever brand color you want */
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.video-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.video-embed {
+  flex: 0.6;
+  aspect-ratio: 9 / 16;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  border: 50px solid #3E3A39;
+  overflow: hidden;
+}
+
+.video-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+.video-text {
+  flex: 1;
+  color: #F5F1EA;
+}
+
+.video-text h2 {
+  color: #F5F1EA;
+  margin-bottom: 20px;
+}
+
+      .video-text p {
+  line-height: 1.8;
+  color: #F5F1EA;
+  padding-right: 50px;
+}
+
+      .video-text img{
+        max-height: 70px;
+        
+      }
+      
+      .video-text i{
+        font-weight: 150;
+      }
+      
     </style>
     
   </head>
@@ -136,6 +193,33 @@
     </div>
     
     <!--Content-->
+    
+   <section class="video-section bg-blueprint">
+  <div class="video-content">
+    <div class="video-embed">
+      <iframe 
+        src="https://uofwaterloo-my.sharepoint.com/personal/jcjohan_uwaterloo_ca/_layouts/15/embed.aspx?UniqueId=36a423fe-aa9b-44e2-afd5-64bfbd8f1d7f&nav=%7B%22playbackOptions%22%3A%7B%22startTimeInSeconds%22%3A0%7D%7D&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+        frameborder="0"
+        allowfullscreen
+        title="PR or ER"></iframe>
+    </div>
+    <div class="video-text">
+      <h2>PR or ER</h2>
+      <p>It’s not a highlight reel. It’s the in-between. The quiet days, the routines that look the same but feel different. This project captures the rhythm of showing up — not for the drama, but for the lift that might be better than the last. No fails. No PR glory shots. Just focus, tension, and a camera that romanticizes repetition. It’s less about the moment you hit it and more about the work that almost does.
+
+</p>
+      <p>Shot handheld with natural and directional gym lighting. Graded neutral with low contrast. Edited in Premiere with rhythmic cuts to emphasize form and pacing.</p>
+      
+      <p><i>Shot on DJI Osmo Pocket 3</i>
+      </p>
+      
+      <img src="PREMIERE.svg.png" alt="adobe premiere pro logo">
+      
+    </div>
+  </div>
+</section>
+    
+    
     
     
     
